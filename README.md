@@ -23,8 +23,10 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+Very first app for the course ITB8201 at Taltech. 
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Prod url: https://taltech-smart-contracts-2022.herokuapp.com/  
+Local url: http://localhost:3000/
 
 ## Installation
 
