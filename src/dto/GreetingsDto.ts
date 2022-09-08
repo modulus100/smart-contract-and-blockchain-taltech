@@ -1,3 +1,0 @@
-interface GreetingsDto {
-  greetings: string
-}
