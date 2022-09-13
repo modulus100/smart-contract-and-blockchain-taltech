@@ -16,11 +16,11 @@ describe('AppController (e2e)', () => {
   });
 
   it('/ (GET)', () => {
-    const greetings = "Hello TalTech";
+    const greetings = { greetings: "Hello TalTech" };
 
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
-      .expect({greetings});
+      .expect(greetings);
   });
 });

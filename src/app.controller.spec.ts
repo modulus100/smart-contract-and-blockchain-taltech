@@ -16,8 +16,7 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "Hello TalTech', () => {
-      const greetings = "Hello TalTech";
-      expect(appController.getHello()).toEqual({greetings});
+      expect(appController.getHello()).toEqual({ greetings: "Hello TalTech" });
     });
   });
 });
